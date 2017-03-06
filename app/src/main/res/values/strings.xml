@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ride</string>
+    <string name="welcome">Welcome to Ride !</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="back">BACK</string>
+    <string name="instructions">Select date of car rental below.</string>
+    <string name="name">Name</string>
+    <string name="phone_num">Phone No.</string>
+    <string name="email">E-mail</string>
+    <string name="book">Make Booking</string>
+    <string name= "enter_name">Enter Your Name</string>
+    <string name="enter_phone">Enter Your Phone Number</string>
+    <string name="enter_email">Enter Your E-Mail Address</string>
+    <string name="book_sum">Booking Summary</string>
+    <string name="ringgit">RM</string>
+    <string name="verifydetails">Verify Details</string>
+    <string name="selectCar">Select the car you prefer below</string>
+</resources>

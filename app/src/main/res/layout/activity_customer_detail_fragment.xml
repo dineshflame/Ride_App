@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dineshflame.ride.CustomerDetailFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="25">
+
+
+        <TextView
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cust_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:selectAllOnFocus="true"
+            android:text="@string/enter_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/enterPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="@string/phone_num"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cust_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:selectAllOnFocus="true"
+            android:text="@string/enter_phone"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/enterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cust_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:selectAllOnFocus="true"
+            android:text="@string/enter_email"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/customer_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="11dp"
+            android:text="@string/book"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</FrameLayout>
